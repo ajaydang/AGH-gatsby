@@ -1,0 +1,32 @@
+.transform-data {
+  margin: 0 14px 14px;
+  padding: 100px 90px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  background: #ededed;
+
+  &__wrapper {
+    width: 381px;
+  }
+
+  &__title {
+    color: var(--Black-200, #111);
+    font-family: "Lora", serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  p {
+    color: var(--Black-300, #333);
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 11px 0 30px;
+  }
+}

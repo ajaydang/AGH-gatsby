@@ -1,0 +1,46 @@
+.folder-card {
+  width: 280px;
+  height: 164px;
+  border-radius: 12px;
+  background-color: #273556;
+  padding: 26px 48px 26px 26px;
+  display: block;
+  position: relative;
+
+  &::before {
+    content: "";
+    background: radial-gradient(
+      41.36% 41.36% at 50% 50%,
+      rgba(66, 190, 75, 0.2) 0%,
+      rgba(29, 39, 63, 0) 100%
+    );
+  }
+
+  &::after {
+    content: "";
+    width: 101.522px;
+    height: 10px;
+    position: absolute;
+    background-color: #273556;
+    top: -9px;
+    right: 40px;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  }
+
+  &__title {
+    font-family: "Lora", serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 51.2px;
+    color: #a3e347;
+  }
+
+  &__brief {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20.11px;
+    color: white;
+    margin-top: 20px;
+  }
+}

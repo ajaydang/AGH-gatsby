@@ -1,0 +1,27 @@
+/* src/components/Tabs.css */
+.tabs {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tab-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.tab-item {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent; /* For active tab underline */
+}
+
+.tab-item.active {
+  background-color: #f0f0f0; /* Active tab background */
+  border-bottom: 2px solid #007acc; /* Active tab underline */
+}
+
+.tab-content {
+  padding: 120px 0;
+}

@@ -1,0 +1,36 @@
+.blog-section {
+  margin-bottom: 250px;
+  padding: 0 100px;
+
+  &__title {
+    color: #111;
+    font-family: "Lora", serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 0 100px;
+  }
+
+  &__subtitle {
+    color: #333;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  &__children {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+  }
+}

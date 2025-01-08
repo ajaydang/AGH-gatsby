@@ -1,0 +1,70 @@
+.testimonial-card {
+  width: 517px;
+  height: 559px;
+  padding: 40px;
+  border-radius: 12px;
+  background-color: #1d273f;
+  display: block;
+
+  &:before {
+    content: "";
+    background: url("../images/bg-gradient.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+
+  &__qoute {
+    margin-bottom: 40px;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 85%;
+  }
+
+  &__description {
+    font-family: "SF Pro", sans-serif;
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 274;
+    line-height: normal;
+  }
+
+  &__profile-image {
+    width: 100%;
+    max-width: 80px;
+    height: 80px;
+    display: block;
+    border-radius: 50%;
+    background-color: #e3f97b;
+  }
+
+  &__profile {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  &__profile-content {
+    h3 {
+      color: #e3f97b;
+      font-family: "SF Pro", serif;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 510;
+      line-height: normal;
+      margin-bottom: 8px;
+    }
+    p {
+      color: var(--White-Pure, #fff);
+      font-family: "SF Pro", sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 274;
+      line-height: normal;
+    }
+  }
+}

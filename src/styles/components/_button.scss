@@ -1,0 +1,45 @@
+.btn {
+  border-radius: 2px;
+  border: 1px solid #e3f97b;
+  background: #e3f97b;
+  padding: 12px 24px;
+  color: #134440;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+
+  &--outlined {
+    border-radius: 2px;
+    border: 1px solid var(--White-Pure, #fff);
+    background-color: unset;
+  }
+
+  &--white-outlined {
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 20px;
+    color: white;
+    font-family: "Lora", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: space-between;
+
+    &:hover {
+      background: #e3f97b;
+      color: var(--Primary-Blue, #1d273f);
+    }
+
+    &--active {
+      background: #e3f97b;
+      color: var(--Primary-Blue, #1d273f);
+    }
+  }
+}

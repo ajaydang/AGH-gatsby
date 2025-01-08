@@ -1,0 +1,25 @@
+.testimonial {
+  padding: 250px 100px;
+
+  &__wrapper {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title {
+    color: #111;
+    font-family: "Lora", serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  // &__cards {
+  //   display: flex;
+  //   align-items: center;
+  //   gap: 40px;
+  // }
+}

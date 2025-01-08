@@ -1,0 +1,19 @@
+.transform-healthcare {
+  padding: 120px 100px;
+
+  &__title {
+    font-family: "Lora", serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38.4px;
+    text-align: center;
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 95px;
+    gap: 40px;
+  }
+}

@@ -1,0 +1,26 @@
+.explore-caremeasurement {
+  background: #273556;
+  padding: 120px 97px;
+  display: block;
+
+  &__title {
+    color: var(--White-Pure, #fff);
+    text-align: center;
+    font-family: "Lora", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  &__subtitle {
+    color: var(--White-100, #f8f8f8);
+    text-align: center;
+    font-family: "Merriweather Sans", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 24px;
+  }
+}
