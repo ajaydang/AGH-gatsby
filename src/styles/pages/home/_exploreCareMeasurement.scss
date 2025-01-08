@@ -23,4 +23,12 @@
     line-height: normal;
     margin-top: 24px;
   }
+
+  &__content {
+    width: 1269px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
 }

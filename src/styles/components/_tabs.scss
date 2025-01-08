@@ -3,25 +3,79 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 120px;
+
+  &__item {
+    &-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+    }
+
+    &-headings {
+      color: var(--White-Pure, #fff);
+      font-family: "Lora", sans-serif;
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+
+    &-brief {
+      color: var(--White-100, #f8f8f8);
+      font-family: "Merriweather Sans";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin: 12px 0 24px;
+    }
+
+    &-list {
+      color: #f8f8f8;
+      &:marker {
+        color: white;
+      }
+    }
+
+    &-text {
+      font-family: "Merriweather Sans", serif;
+      font-weight: 300;
+      margin: 16px 0 24px;
+    }
+
+    .line {
+      border: 1px solid #d9d9d9;
+      margin-bottom: 24px;
+      display: block;
+    }
+  }
 }
 
 .tab-list {
-  list-style-type: none;
-  padding: 0;
   display: flex;
-}
-
-.tab-item {
-  padding: 10px 20px;
-  cursor: pointer;
-  border-bottom: 2px solid transparent; /* For active tab underline */
-}
-
-.tab-item.active {
-  background-color: #f0f0f0; /* Active tab background */
-  border-bottom: 2px solid #007acc; /* Active tab underline */
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .tab-content {
   padding: 120px 0;
+}
+
+.text-green {
+  color: #a3e347;
+  font-family: "Merriweather Sans", serif;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-italic {
+  font-style: italic;
 }

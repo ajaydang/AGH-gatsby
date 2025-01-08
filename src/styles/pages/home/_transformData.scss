@@ -1,15 +1,16 @@
 .transform-data {
   margin: 0 14px 14px;
   padding: 100px 90px;
-  gap: 10px;
+  gap: 100px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   border-radius: 12px;
   background: #ededed;
 
-  &__wrapper {
-    width: 381px;
-  }
+  // &__wrapper {
+  //   width: 381px;
+  // }
 
   &__title {
     color: var(--Black-200, #111);

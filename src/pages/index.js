@@ -15,19 +15,23 @@ import { StaticImage } from "gatsby-plugin-image"
 import Slider from "react-slick"
 import ExploreCareMeasurement from "../components/home/ExploreCareMeasurement"
 
+import RothmanOrthopedics from "../images/client-logo/rothman-orthopaedics.png"
+import PennStateHershey from "../images/client-logo/penn-state-hershey-medical-center.png"
+import NewEnglandBaptistLogo from "../images/client-logo/new-england-baptist-logo.png"
+
 const HomePage = () => {
   const testimonials = [
     {
       id: 1,
-      logo: "../images/client-logo/rothman-orthopaedics.png",
+      logo: RothmanOrthopedics,
     },
     {
       id: 2,
-      logo: "../images/client-logo/penn-state-hershey-medical-center.png",
+      logo: PennStateHershey,
     },
     {
       id: 3,
-      logo: "../images/client-logo/new-england-baptist-logo.png",
+      logo: NewEnglandBaptistLogo,
     },
   ]
 
@@ -67,47 +71,16 @@ const HomePage = () => {
                 id={testimonial.id}
                 key={testimonial.id}
               >
-                <StaticImage
+                <img src={testimonial.logo} alt="" />
+                {/* <StaticImage
                   src={testimonial.logo}
                   alt="rothman-orthopaedics"
                   placeholder="blurred"
                   layout="fixed"
-                  width={300}
-                  height={90}
-                />
+                /> */}
               </div>
             ))}
           </Slider>
-          {/* <div className="clients__logo">
-            <StaticImage
-              src="../images/client-logo/penn-state-hershey-medical-center.png"
-              alt="penn-state-hershey-medical-center"
-              placeholder="blurred"
-              layout="fixed"
-              width={300}
-              height={90}
-            />
-          </div>
-          <div className="clients__logo">
-            <StaticImage
-              src="../images/client-logo/ortho-tennessee.png"
-              alt="ortho-tennessee"
-              placeholder="blurred"
-              layout="fixed"
-              width={300}
-              height={90}
-            />
-          </div>
-          <div className="clients__logo">
-            <StaticImage
-              src="../images/client-logo/new-england-baptist-logo.png"
-              alt="new-england-baptist-logo"
-              placeholder="blurred"
-              layout="fixed"
-              width={300}
-              height={90}
-            />
-          </div> */}
         </div>
       </div>
 
